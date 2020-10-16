@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('Test FireFox') {
+    stage('Test') {
       parallel {
         stage('Test FireFox') {
           steps {
@@ -17,7 +17,7 @@ pipeline {
 
         stage('Test Chrome') {
           steps {
-            echo 'Test Chrome'
+            cho 'Test Chrome'
           }
         }
 
